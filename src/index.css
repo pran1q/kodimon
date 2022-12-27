@@ -1,13 +1,25 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Bellota&display=swap");
+
+:root {
+  box-sizing: border-box;
+  font-size: 0.9em;
+  --blue: #0073bc;
+  --blue-light: #73b9e5;
+  --yellow: #ffcc00;
+  --yellow-light: #fff7d6;
+  --red: #ff2323;
+  --red-light: #ff7575;
+  --green: #079325;
+  --green-light: #62ff84;
+  --orange: #cc7722;
+  --orange-light: #ffbf00;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*,
+::before,
+::after {
+  font-family: "Belloto", cursive;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
 }

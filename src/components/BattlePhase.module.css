@@ -1,0 +1,77 @@
+.battle-phase-container {
+  height: 100vh;
+  min-height: 890px;
+  display: flex;
+  flex-direction: column;
+  min-width: 1080px;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.battleground {
+  display: inherit;
+  margin-top: 120px;
+  justify-content: space-between;
+  align-items: last baseline;
+  min-width: 1080px;
+}
+
+.menu-logs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.button {
+  width: 94%;
+  margin: 3px 0;
+}
+
+.attack {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.logs {
+  width: 500px;
+  height: 200px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.logs > p {
+  margin-left: 1em;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.backdrop > p {
+  font-size: 3em;
+  position: absolute;
+  top: 24%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+
+.menu-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  overflow: hidden;
+}

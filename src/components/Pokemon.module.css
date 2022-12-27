@@ -1,0 +1,37 @@
+.pokemon-container {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.health-bar {
+  width: 100%;
+  height: 16px;
+  margin-top: 5px;
+  border-radius: 2em;
+  border: 2px solid;
+}
+
+.inner-health-bar {
+  height: 100%;
+  background-color: var(--green-light);
+  border-radius: 0.5em;
+}
+
+.below50 {
+  color: var(--orange);
+}
+
+.below30 {
+  color: var(--red);
+}
+
+.pokemon-image {
+  margin-top: 10px;
+  width: 70%;
+}
+
+.stats {
+  margin-right: 16em;
+}
