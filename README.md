@@ -16,6 +16,7 @@ deal. Fight is over when one of the Pokemon drops below 0 health points after we
 We need to navigate to root folder and run "npm install" in terminal. After we install all
 dependencies we can run "npm start". By default, application will run on http://localhost:3000/.
 
+Deployed application can be found at https://stalwart-beignet-df3571.netlify.app/
 
 
 
