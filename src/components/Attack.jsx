@@ -1,4 +1,4 @@
-import arrow from "../images/arrow.svg";
+import arrow from "../assets/arrow.svg";
 
 import styles from "./Attack.module.css";
 

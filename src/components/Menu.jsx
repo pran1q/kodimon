@@ -1,4 +1,4 @@
-import Container from "./Container";
+import Container from "./UI/Container";
 
 import styles from "./Menu.module.css";
 
