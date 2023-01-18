@@ -1,12 +1,10 @@
 import { Fragment, useState } from "react";
 
-import getPokemonData from "../proxies/getPokemonData";
-
-import kodimon from "../../assets/kodimon1.png";
-import styles from "./Home.module.css";
-
+import getPokemonData from "../../utils/getPokemonData";
 import BattlePhase from "./BattlePhase";
 import Button from "../UI/Button";
+import kodimon from "../../assets/kodimon1.png";
+import styles from "./Home.module.css";
 
 const Home = () => {
   const [pokemonOne, setPokemonOne] = useState({});

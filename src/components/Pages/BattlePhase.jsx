@@ -1,11 +1,10 @@
 import { Fragment, useState } from "react";
 import Home from "./Home";
-import Pokemon from "../Pokemon";
-import Attack from "../Attack";
-import Menu from "../Menu";
-import Logs from "../Logs";
+import Pokemon from "../Compound/Pokemon";
+import Attack from "../Compound/Attack";
+import Menu from "../Compound/Menu";
+import Logs from "../Compound/Logs";
 import Button from "../UI/Button";
-
 import styles from "./BattlePhase.module.css";
 
 const BattlePhase = ({ pokemonDataOne, pokemonDataTwo, newFetch }) => {
@@ -219,11 +218,7 @@ const BattlePhase = ({ pokemonDataOne, pokemonDataTwo, newFetch }) => {
         </Menu>
         <div className={styles["logs-container"]}>
           <p>Logs</p>
-          <Logs>
-            {logs.map((logs) => (
-              <p key={Math.random()}>{logs}</p>
-            ))}
-          </Logs>
+          <Logs logs={logs}></Logs>
         </div>
       </div>
     </div>

@@ -1,5 +1,4 @@
-import Container from "./UI/Container";
-
+import Container from "../UI/Container";
 import styles from "./Menu.module.css";
 
 const Menu = ({ className, children }) => {

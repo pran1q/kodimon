@@ -1,5 +1,4 @@
-import Container from "./UI/Container";
-
+import Container from "../UI/Container";
 import styles from "./Pokemon.module.css";
 
 const Pokemon = ({

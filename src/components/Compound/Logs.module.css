@@ -1,12 +1,15 @@
 .logs {
   width: 500px;
   height: 200px;
-  overflow-x: hidden;
-  overflow-y: auto;
   display: flex;
   flex-direction: column;
 }
 
 .logs > p {
   margin-left: 1em;
+}
+
+.logs-wrapper {
+  overflow-x: hidden;
+  overflow-y: auto;
 }
